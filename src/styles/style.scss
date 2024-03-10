@@ -1,0 +1,30 @@
+:root {
+  --color-light-gray: #f8f8fd;
+  --color-gray: #e8e8ff;
+  --color-white: #fff;
+  --color-light-orange: #fff5e9;
+  --color-orange: #fe9e24;
+  --color-dark-gray: #9f9db2;
+  --color-purple: #615afa;
+  --color-dark-purple: #473dff;
+  --border-radius: 1rem;
+  --circle: 10000rem;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Acumin Pro", sans-serif;
+  background-color: var(--color-light-gray);
+}
+
+//imports
+//font
+@import url("https://fonts.cdnfonts.com/css/acumin-pro");
+//components
+@import "./components/layout.scss";
+@import "./components/profile.scss";
